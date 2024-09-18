@@ -1,0 +1,402 @@
+[
+  {
+    "word": "Python",
+    "category": "Programming"
+  },
+  {
+    "word": "JavaScript",
+    "category": "Programming"
+  },
+  {
+    "word": "Java",
+    "category": "Programming"
+  },
+  {
+    "word": "Ruby",
+    "category": "Programming"
+  },
+  {
+    "word": "Go",
+    "category": "Programming"
+  },
+  {
+    "word": "Rust",
+    "category": "Programming"
+  },
+  {
+    "word": "Swift",
+    "category": "Programming"
+  },
+  {
+    "word": "Kotlin",
+    "category": "Programming"
+  },
+  {
+    "word": "TypeScript",
+    "category": "Programming"
+  },
+  {
+    "word": "Haskell",
+    "category": "Programming"
+  },
+  {
+    "word": "Elixir",
+    "category": "Programming"
+  },
+  {
+    "word": "Scala",
+    "category": "Programming"
+  },
+  {
+    "word": "Lua",
+    "category": "Programming"
+  },
+  {
+    "word": "Perl",
+    "category": "Programming"
+  },
+  {
+    "word": "Dart",
+    "category": "Programming"
+  },
+  {
+    "word": "Fortran",
+    "category": "Programming"
+  },
+  {
+    "word": "Pascal",
+    "category": "Programming"
+  },
+  {
+    "word": "Racket",
+    "category": "Programming"
+  },
+  {
+    "word": "Visual Basic",
+    "category": "Programming"
+  },
+  {
+    "word": "Objective C",
+    "category": "Programming"
+  },
+  {
+    "word": "Soccer",
+    "category": "Sports"
+  },
+  {
+    "word": "Basketball",
+    "category": "Sports"
+  },
+  {
+    "word": "Tennis",
+    "category": "Sports"
+  },
+  {
+    "word": "Baseball",
+    "category": "Sports"
+  },
+  {
+    "word": "Cricket",
+    "category": "Sports"
+  },
+  {
+    "word": "Rugby",
+    "category": "Sports"
+  },
+  {
+    "word": "Volleyball",
+    "category": "Sports"
+  },
+  {
+    "word": "Golf",
+    "category": "Sports"
+  },
+  {
+    "word": "Swimming",
+    "category": "Sports"
+  },
+  {
+    "word": "Boxing",
+    "category": "Sports"
+  },
+  {
+    "word": "Hockey",
+    "category": "Sports"
+  },
+  {
+    "word": "Table Tennis",
+    "category": "Sports"
+  },
+  {
+    "word": "Badminton",
+    "category": "Sports"
+  },
+  {
+    "word": "American Football",
+    "category": "Sports"
+  },
+  {
+    "word": "Cycling",
+    "category": "Sports"
+  },
+  {
+    "word": "Wrestling",
+    "category": "Sports"
+  },
+  {
+    "word": "Track and Field",
+    "category": "Sports"
+  },
+  {
+    "word": "Gymnastics",
+    "category": "Sports"
+  },
+  {
+    "word": "Skateboarding",
+    "category": "Sports"
+  },
+  {
+    "word": "Surfing",
+    "category": "Sports"
+  },
+  {
+    "word": "Algeria",
+    "category": "Countries"
+  },
+  {
+    "word": "Bahrain",
+    "category": "Countries"
+  },
+  {
+    "word": "Egypt",
+    "category": "Countries"
+  },
+  {
+    "word": "Iraq",
+    "category": "Countries"
+  },
+  {
+    "word": "Jordan",
+    "category": "Countries"
+  },
+  {
+    "word": "Kuwait",
+    "category": "Countries"
+  },
+  {
+    "word": "Lebanon",
+    "category": "Countries"
+  },
+  {
+    "word": "Libya",
+    "category": "Countries"
+  },
+  {
+    "word": "Morocco",
+    "category": "Countries"
+  },
+  {
+    "word": "Oman",
+    "category": "Countries"
+  },
+  {
+    "word": "Palestine",
+    "category": "Countries"
+  },
+  {
+    "word": "Qatar",
+    "category": "Countries"
+  },
+  {
+    "word": "Saudi Arabia",
+    "category": "Countries"
+  },
+  {
+    "word": "Somalia",
+    "category": "Countries"
+  },
+  {
+    "word": "Sudan",
+    "category": "Countries"
+  },
+  {
+    "word": "Syria",
+    "category": "Countries"
+  },
+  {
+    "word": "Tunisia",
+    "category": "Countries"
+  },
+  {
+    "word": "United Arab Emirates",
+    "category": "Countries"
+  },
+  {
+    "word": "Yemen",
+    "category": "Countries"
+  },
+  {
+    "word": "Mauritania",
+    "category": "Countries"
+  },
+  {
+    "word": "Apple",
+    "category": "Friuts"
+  },
+  {
+    "word": "Banana",
+    "category": "Friuts"
+  },
+  {
+    "word": "Orange",
+    "category": "Friuts"
+  },
+  {
+    "word": "Grapefruit",
+    "category": "Friuts"
+  },
+  {
+    "word": "Mango",
+    "category": "Friuts"
+  },
+  {
+    "word": "Pineapple",
+    "category": "Friuts"
+  },
+  {
+    "word": "Strawberry",
+    "category": "Friuts"
+  },
+  {
+    "word": "Blueberry",
+    "category": "Friuts"
+  },
+  {
+    "word": "Raspberry",
+    "category": "Friuts"
+  },
+  {
+    "word": "Kiwi",
+    "category": "Friuts"
+  },
+  {
+    "word": "Avocado",
+    "category": "Friuts"
+  },
+  {
+    "word": "Watermelon",
+    "category": "Friuts"
+  },
+  {
+    "word": "Grape",
+    "category": "Friuts"
+  },
+  {
+    "word": "Peach",
+    "category": "Friuts"
+  },
+  {
+    "word": "Pear",
+    "category": "Friuts"
+  },
+  {
+    "word": "Cherry",
+    "category": "Friuts"
+  },
+  {
+    "word": "Lemon",
+    "category": "Friuts"
+  },
+  {
+    "word": "Lime",
+    "category": "Friuts"
+  },
+  {
+    "word": "Papaya",
+    "category": "Friuts"
+  },
+  {
+    "word": "Fig",
+    "category": "Friuts"
+  },
+  {
+    "word": "Teacher",
+    "category": "Jobs"
+  },
+  {
+    "word": "Doctor",
+    "category": "Jobs"
+  },
+  {
+    "word": "Engineer",
+    "category": "Jobs"
+  },
+  {
+    "word": "Lawyer",
+    "category": "Jobs"
+  },
+  {
+    "word": "Nurse",
+    "category": "Jobs"
+  },
+  {
+    "word": "Software Developer",
+    "category": "Jobs"
+  },
+  {
+    "word": "Accountant",
+    "category": "Jobs"
+  },
+  {
+    "word": "Salesperson",
+    "category": "Jobs"
+  },
+  {
+    "word": "Chef",
+    "category": "Jobs"
+  },
+  {
+    "word": "Architect",
+    "category": "Jobs"
+  },
+  {
+    "word": "Police Officer",
+    "category": "Jobs"
+  },
+  {
+    "word": "Firefighter",
+    "category": "Jobs"
+  },
+  {
+    "word": "Pilot",
+    "category": "Jobs"
+  },
+  {
+    "word": "Writer",
+    "category": "Jobs"
+  },
+  {
+    "word": "Artist",
+    "category": "Jobs"
+  },
+  {
+    "word": "Musician",
+    "category": "Jobs"
+  },
+  {
+    "word": "Carpenter",
+    "category": "Jobs"
+  },
+  {
+    "word": "Plumber",
+    "category": "Jobs"
+  },
+  {
+    "word": "Electrician",
+    "category": "Jobs"
+  },
+  {
+    "word": "Truck Driver",
+    "category": "Jobs"
+  }
+]
