@@ -26,6 +26,7 @@
   --mantle: #292c3c;
   --crust: #232634;
   --thickness: 4px;
+  --gap: 15px;
 }
 * {
   box-sizing: border-box;
@@ -48,6 +49,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  width: 100%;
   @media (min-width: 768px) {
     width: 750px;
   }
@@ -83,12 +85,13 @@ header {
 
 section.game-content {
   .container {
+    margin-top: var(--gap);
     > div:first-of-type {
       display: flex;
+      gap: var(--gap);
       .hangman-drawing {
-        margin-top: 15px;
         background-color: var(--surface-0);
-        flex-grow: 1;
+        flex: 1;
         height: 400px;
         .parts {
           height: 100%;
@@ -187,6 +190,36 @@ section.game-content {
             left: 197px;
             top: 292px;
             transform: rotate(30deg);
+          }
+        }
+      }
+      .letters-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex: 1;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--sapphire);
+          color: white;
+          font-size: 36px;
+          font-weight: bold;
+          width: 65px;
+          height: 65px;
+          cursor: pointer;
+          @media(max-width: 1200px) {
+            width: 55px;
+            height: 55px;
+          }
+          &.clicked {
+            background-color: var(--surface-2);
+            color: var(--surface-0);
+            pointer-events: none;
           }
         }
       }
