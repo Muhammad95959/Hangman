@@ -1,0 +1,78 @@
+:root {
+  --rosewater: #f2d5cf;
+  --flamingo: #eebebe;
+  --pink: #f4b8e4;
+  --mauve: #ca9ee6;
+  --red: #e78284;
+  --maroon: #ea999c;
+  --peach: #ef9f76;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --sky: #99d1db;
+  --sapphire: #85c1dc;
+  --blue: #8caaee;
+  --lavender: #babbf1;
+  --text: #c6d0f5;
+  --subtext-1: #b5bfe2;
+  --subtext-0: #a5adce;
+  --overlay-2: #949cbb;
+  --overlay-1: #838ba7;
+  --overlay-0: #737994;
+  --surface-2: #626880;
+  --surface-1: #51576d;
+  --surface-0: #414559;
+  --base: #303446;
+  --mantle: #292c3c;
+  --crust: #232634;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+@font-face {
+  font-family: "open-sans";
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body {
+  font-family: "open-sans";
+  background-color: var(--base);
+  color: var(--text);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    ::after {
+      content: "";
+      width: calc(100% - 30px);
+      height: 1px;
+      position: absolute;
+      left: 15px;
+      bottom: -15px;
+      background-color: var(--surface-1);
+    }
+  }
+}
