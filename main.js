@@ -15,7 +15,6 @@ fetch("database/words.json")
     currentWord = currentWordObj.word;
     currentWordLength = currentWord.length;
     remainingWordLetters = [...currentWord];
-    console.log(currentWord); // for debugging
     document.querySelector("header .category-title").textContent =
       currentWordObj.category;
     document.body.style.visibility = "visible";
