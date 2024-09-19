@@ -87,6 +87,8 @@ header {
 
 section.game-content {
   .container {
+    min-height: calc(100vh - 120px - var(--gap));
+    position: relative;
     margin-top: var(--gap);
     > div:first-of-type {
       display: flex;
@@ -320,7 +322,7 @@ section.game-content {
       }
     }
     > div:last-of-type {
-      margin-bottom: var(--gap);
+      padding-bottom: var(--gap);
       text-align: center;
       .result-message {
         font-weight: bold;
@@ -340,6 +342,36 @@ section.game-content {
           transform: rotate(360deg);
         }
       }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+      height: 1px;
+      width: calc(100% - 30px);
+      background-color: var(--surface-1);
+    }
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  .container {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+    a {
+      color: var(--sky);
+      text-decoration: none;
+      outline: none;
     }
   }
 }
