@@ -42,6 +42,7 @@ body {
   font-family: "open-sans";
   background-color: var(--base);
   color: var(--text);
+  visibility: hidden;
   opacity: 0;
 }
 .container {
@@ -90,21 +91,37 @@ section.game-content {
     > div:first-of-type {
       display: flex;
       gap: var(--gap);
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
       .hangman-drawing {
         background-color: var(--surface-0);
         flex: 1;
         height: 400px;
+        @media (max-width: 768px) {
+          order: 2;
+          flex: auto;
+          height: 200px;
+        }
         .parts {
           height: 100%;
           width: 255px;
           position: relative;
           margin: auto;
+          @media (max-width: 768px) {
+            transform: scale(0.5) translateY(100px);
+            margin-top: auto;
+          }
           span,
           span::before,
           span::after {
             background-color: var(--text);
             position: absolute;
             transition: opacity 0.3s;
+          }
+          span {
+            visibility: hidden;
+            opacity: 0;
           }
           span.wrong {
             opacity: 100%;
@@ -192,6 +209,16 @@ section.game-content {
             top: 292px;
             transform: rotate(30deg);
           }
+          @media (max-width: 768px) {
+            .part-3,
+            .part-4,
+            .part-5,
+            .part-6,
+            .part-7,
+            .part-8 {
+              transform: translateY(-200px);
+            }
+          }
         }
       }
       .letters-box {
@@ -202,6 +229,9 @@ section.game-content {
         flex-wrap: wrap;
         gap: 10px;
         flex: 1;
+        @media (max-width: 768px) {
+          order: 1;
+        }
         a {
           display: flex;
           justify-content: center;
@@ -217,9 +247,19 @@ section.game-content {
             width: 55px;
             height: 55px;
           }
+          @media (max-width: 768px) {
+            width: 35px;
+            height: 35px;
+            font-size: 24px;
+          }
           &.clicked {
             background-color: var(--surface-2);
             color: var(--surface-0);
+            pointer-events: none;
+          }
+        }
+        &.end {
+          a {
             pointer-events: none;
           }
         }
@@ -237,6 +277,10 @@ section.game-content {
         align-items: center;
         gap: 10px;
         position: relative;
+        @media (max-width: 768px) {
+          height: fit-content;
+          flex-wrap: wrap;
+        }
         &::before {
           content: "";
           width: 100%;
@@ -261,12 +305,39 @@ section.game-content {
             width: 55px;
             height: 55px;
           }
+          @media (max-width: 768px) {
+            width: 35px;
+            height: 35px;
+            font-size: 24px;
+          }
           &.space {
             border: none;
             width: 25px;
             height: 4px;
             background-color: var(--text);
           }
+        }
+      }
+    }
+    > div:last-of-type {
+      margin-bottom: var(--gap);
+      text-align: center;
+      .result-message {
+        font-weight: bold;
+        font-size: 30px;
+        span {
+          color: var(--red);
+        }
+      }
+      i.play-again {
+        visibility: hidden;
+        font-size: 40px;
+        color: var(--pink);
+        transition: transform 0.8s;
+        cursor: pointer;
+        margin-top: 5px;
+        &:hover {
+          transform: rotate(360deg);
         }
       }
     }
