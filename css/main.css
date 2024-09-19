@@ -327,6 +327,9 @@ section.game-content {
       .result-message {
         font-weight: bold;
         font-size: 30px;
+        @media (max-width: 768px) {
+          font-size: 18px;
+        }
         span {
           color: var(--red);
         }
@@ -338,6 +341,10 @@ section.game-content {
         transition: transform 0.8s;
         cursor: pointer;
         margin-top: 5px;
+        @media (max-width: 768px) {
+          font-size: 30px;
+          margin-top: 10px;
+        }
         &:hover {
           transform: rotate(360deg);
         }
