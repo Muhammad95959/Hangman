@@ -1,83 +1,83 @@
 [
   {
-    "word": "Python",
-    "category": "Programming"
+    "word": "Lion",
+    "category": "Animals"
   },
   {
-    "word": "JavaScript",
-    "category": "Programming"
+    "word": "Elephant",
+    "category": "Animals"
   },
   {
-    "word": "Java",
-    "category": "Programming"
+    "word": "Tiger",
+    "category": "Animals"
   },
   {
-    "word": "Ruby",
-    "category": "Programming"
+    "word": "Giraffe",
+    "category": "Animals"
   },
   {
-    "word": "Go",
-    "category": "Programming"
+    "word": "Kangaroo",
+    "category": "Animals"
   },
   {
-    "word": "Rust",
-    "category": "Programming"
+    "word": "Panda",
+    "category": "Animals"
   },
   {
-    "word": "Swift",
-    "category": "Programming"
+    "word": "Dolphin",
+    "category": "Animals"
   },
   {
-    "word": "Kotlin",
-    "category": "Programming"
+    "word": "Eagle",
+    "category": "Animals"
   },
   {
-    "word": "TypeScript",
-    "category": "Programming"
+    "word": "Shark",
+    "category": "Animals"
   },
   {
-    "word": "Haskell",
-    "category": "Programming"
+    "word": "Penguin",
+    "category": "Animals"
   },
   {
-    "word": "Elixir",
-    "category": "Programming"
+    "word": "Zebra",
+    "category": "Animals"
   },
   {
-    "word": "Scala",
-    "category": "Programming"
+    "word": "Gorilla",
+    "category": "Animals"
   },
   {
-    "word": "Lua",
-    "category": "Programming"
+    "word": "Cheetah",
+    "category": "Animals"
   },
   {
-    "word": "Perl",
-    "category": "Programming"
+    "word": "Koala",
+    "category": "Animals"
   },
   {
-    "word": "Dart",
-    "category": "Programming"
+    "word": "Wolf",
+    "category": "Animals"
   },
   {
-    "word": "Fortran",
-    "category": "Programming"
+    "word": "Rhino",
+    "category": "Animals"
   },
   {
-    "word": "Pascal",
-    "category": "Programming"
+    "word": "Flamingo",
+    "category": "Animals"
   },
   {
-    "word": "Racket",
-    "category": "Programming"
+    "word": "Owl",
+    "category": "Animals"
   },
   {
-    "word": "Visual Basic",
-    "category": "Programming"
+    "word": "Hippopotamus",
+    "category": "Animals"
   },
   {
-    "word": "Objective C",
-    "category": "Programming"
+    "word": "Crocodile",
+    "category": "Animals"
   },
   {
     "word": "Soccer",
