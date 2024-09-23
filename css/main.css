@@ -326,7 +326,7 @@ section.game-content {
       text-align: center;
       .result-message {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 24px;
         @media (max-width: 768px) {
           font-size: 18px;
         }
@@ -336,13 +336,12 @@ section.game-content {
       }
       i.play-again {
         visibility: hidden;
-        font-size: 40px;
+        font-size: 30px;
         color: var(--pink);
         transition: transform 0.8s;
         cursor: pointer;
         margin-top: 5px;
         @media (max-width: 768px) {
-          font-size: 30px;
           margin-top: 10px;
         }
         &:hover {
